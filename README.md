@@ -10,14 +10,14 @@ This project was developed with an emphasis on practical implementation, data an
 ### **Objective**
 To analyze credit card transaction data and predict credit card fraud (Yes / No) using machine learning techniques, helping financial institutions detect fraudulent activities in advance.
 
-### **Dataset Information**
+#### **Dataset Information**
 Dataset Name: Credit Card Fraud Detection Dataset. <br>
 Source: Kaggle. <br>
 Records: 284,807 transactions. <br>
 Target Variable: Fraud (Yes / No). <br>
 The dataset contains anonymized transaction features generated using PCA, along with transaction amount and time.<br> The data is highly imbalanced, with very few fraudulent transactions compared to legitimate ones.
 
-**Technologies Used**
+#### **Technologies Used**
 - Programming Language: Python
 - IDE: Google Colab
 **Libraries:**
@@ -27,32 +27,32 @@ The dataset contains anonymized transaction features generated using PCA, along 
 - Seaborn
 - Scikit-learn
 
-**Exploratory Data Analysis**
+##### **Exploratory Data Analysis**
 
 Transaction amount vs fraud <br>
 Time-based transaction analysis <br>
 Class distribution visualization <br>
 Correlation heatmap
 
-**Results** <br>
+#### **Results** <br>
 **Model Accuracy**: ~99.2% <br>
 The model performs very well in identifying legitimate transactions while maintaining strong fraud detection capability. Due to data imbalance, additional metrics such as precision, recall, and F1-score were considered.
 
-**Key Insights** <br>
+#### **Key Insights** <br>
 Credit card fraud data is highly imbalanced, with very few fraudulent transactions.
 Feature scaling improves model performance and stability.
 Accuracy alone is not sufficient for fraud detection.
 Machine learning models can successfully detect hidden fraud patterns.
 
-**Repository Contents** <br>
+#### **Repository Contents** <br>
 Credit_Card_Fraud_Detection.ipynb – Complete project notebook <br>
 creditcard.csv – Dataset used <br>
 README.md – Project documentation <br>
 
-**Conclusion**
+#### **Conclusion** <br>
 This project demonstrates how machine learning can be applied to real-world financial fraud detection problems. By analyzing transaction data and building a predictive model, organizations can reduce financial losses and improve transaction security.
 
-**Contact**
-Name: Pomba Prasanna Kumar
-Email: prasannakumarpomba@gmail.com
-Phone: +91 9959508800
+#### **Contact** <br>
+Name: Pomba Prasanna Kumar <br>
+Email: prasannakumarpomba@gmail.com <br>
+Phone: +91 9959508800<br>
